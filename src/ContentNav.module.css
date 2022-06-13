@@ -1,0 +1,23 @@
+.navBody {
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 100;
+  width: 400px;
+  padding: 10px;
+  background-color: rgb(83, 83, 105);
+  color: aliceblue;
+}
+
+.navBody ul li {
+  margin: 10px;
+  cursor: pointer;
+}
+
+.navBody ul li:hover {
+  color: rgb(104, 196, 123);
+  transition: all 350ms ease-in-out;
+}
+.active {
+    color: orange;
+}
